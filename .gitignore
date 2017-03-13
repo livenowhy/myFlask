@@ -18,4 +18,5 @@ htmlcov
 .coverage.*
 *,cover
 
-flask/
+flask-dev/
+
