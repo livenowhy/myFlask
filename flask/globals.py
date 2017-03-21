@@ -65,3 +65,5 @@ current_app = LocalProxy(_find_app)
 request = LocalProxy(partial(_lookup_req_object, 'request'))
 session = LocalProxy(partial(_lookup_req_object, 'session'))
 g = LocalProxy(partial(_lookup_app_object, 'g'))
+
+# 20170321

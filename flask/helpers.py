@@ -946,3 +946,5 @@ def total_seconds(td):
     :rtype: int
     """
     return td.days * 60 * 60 * 24 + td.seconds
+
+# 20170321
